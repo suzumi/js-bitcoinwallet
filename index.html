@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src='./btc.js'></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>簡易ウォレット</h2>
+    <h3><a href="https://testnet.manu.backend.hamburg/faucet" target="blank">蛇口(テストネット)はこちら</a></h3>
+
+    <p>残高：<span id="balance"></span> BTC</p>
+    <div>
+        <h2>送金：</h2>
+        <span>
+            <input type="text" id="s_addr" placeholder="送信先アドレス">
+            <input type="text" id="s_amount" placeholder="数量(単位：BTC)">
+            <input type="button" id="sendBtn" value="送金するよ">
+        </span>
+    </div>
+    <script src="./wallet.js"></script>
+</body>
+</html>
